@@ -28,6 +28,7 @@ hr{
   width: 99%;
   margin: 20px auto;
   border-top: 1px solid #f3f3f3;
+  
 }
 .container{
   width: 1200px;
@@ -37,9 +38,6 @@ hr{
 .card{
   max-width:360px ;
   margin: 10rem auto 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   border-radius: 20px;
   text-align: center;
   background-color: white;
@@ -67,15 +65,18 @@ hr{
 .bottom{
   display: flex;
   justify-content: center;
+  
 }
 .bottom div{
   margin: 0 10px;
 }
+
 .bottom p{
   margin: 5px 0 30px;
   font-size: 0.8rem ;
   color: hsl(0, 0%, 59%);
 }
+
 footer{
   color: white;
 }
